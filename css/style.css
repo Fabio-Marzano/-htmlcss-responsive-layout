@@ -35,6 +35,13 @@ body {
     background-color: white;
 }
 
+.main-container-2 {
+    padding: 20px;
+    font-size: 14px;
+    background-color: #9792e4;
+}
+
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -69,6 +76,18 @@ body {
 .flex-center {
     justify-content: center;
     align-items: center;
+    display: flex;
+}
+
+.f-end {
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+
+.fd-column {
+    display: flex;
+    flex-direction: column;
 }
 
 /*PADDING*/
@@ -116,6 +135,10 @@ body {
     margin-right: 10px;
 }
 
+.margin-top-20 {
+    margin-top: 20px;
+}
+
 .sp-between {
     justify-content: space-between;
 }
@@ -155,5 +178,11 @@ body {
 .g-10 {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/*IMAGE*/
+.img {
+    width: 300px;
+    height:300px
 }
 
