@@ -14,6 +14,16 @@ body {
     width: 50%;
 }
 
+.col-50-2 {
+    width: 50%;
+}
+
+.col-33 {
+    width
+}
+
+
+
 .col-2 {
     width: calc((100% - 10px) / 3 * 2);
 }
@@ -29,20 +39,32 @@ body {
     background-color: #0084fd;
 }
 
-.main-container {
+.mc {
     padding: 20px;
     font-size: 14px;
     background-color: white;
 }
 
+
+
+
 .main-container-2 {
     padding: 20px;
     font-size: 14px;
     background-color: #9792e4;
+    
 }
 
+.col-100 {
+    width: 100%;
+}
 
 .container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-2 {
     width: 1200px;
     margin: 0 auto;
 }
@@ -114,12 +136,24 @@ body {
     
 }
 
+.flex {
+    display: flex;
+    align-items: flex-end;
+}
+
 /*TEXT*/
 
 .text-white {
     color: white !important;
  }
 
+ .text-vaiolet {
+   color: #9792e4;
+ }
+
+ .text-12 {
+    font-size: 12px;
+ }
 
 /*COLORS */
 .bg-lightblue {
@@ -135,8 +169,48 @@ body {
     margin-right: 10px;
 }
 
-.margin-top-20 {
-    margin-top: 20px;
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-left-150 {
+    margin-left: 150px;
+}
+
+.margin-left-125 {
+    margin-left: 125px;
+}
+
+.margin-left-50 {
+    margin-left: 200px;
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.margin-left-50 {
+    margin-left: 50px;
 }
 
 .sp-between {
@@ -149,6 +223,37 @@ body {
     padding: 10px;
     border-radius: 30px;
 }
+
+.content-2 {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.debug-2 {
+    
+    height: 300px;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.debug-3 {
+    
+    height: 150px;
+    background-color: #9792e4;
+    border-radius: 20px;
+    
+}
+
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+
+
+
 
 .debug {
     
@@ -182,7 +287,10 @@ body {
 
 /*IMAGE*/
 .img {
-    width: 300px;
-    height:300px
+    width: 250px;
+    height:250px
 }
 
+.h-400 {
+    height: 500px;
+}
