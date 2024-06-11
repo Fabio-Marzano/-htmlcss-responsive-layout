@@ -238,6 +238,14 @@ body {
     margin-left: 340px;
 }
 
+.m-left-375 {
+    margin-left: 375px;
+}
+
+.m-left-435 {
+    margin-left: 435px;
+}
+
 .m-left-390 {
     margin-left: 390px;
 }
@@ -256,6 +264,10 @@ body {
 
 .margin-bottom {
     margin-bottom: 30px;
+}
+
+.mb {
+    margin-bottom: 40px;
 }
 
 .margin-left-50 {
@@ -374,8 +386,34 @@ body {
     border-radius: 20px;
 }
 
+.button-white {
+    background-color: white;
+    padding: 18px 35px;
+    color: #9c97e5 !important;
+    
+    border-radius: 50px;
+}
+
 .margin-bottom {
     margin-bottom: 60px;
     
 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line-height {
+    line-height: 20px;
+}
+
+.link-2 {
+    text-decoration: none;
+    color: white;
+}
+
+.a-class {
+    color: white;
+    text-decoration: underline;
 }
