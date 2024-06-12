@@ -247,6 +247,12 @@ body {
     margin-top: -60px;
 }
 
+.app-container {
+    overflow: scroll;
+    width: 100% vw;
+    height: 100% vh;
+}
+
 .margin-top-40 {
     margin-top: 40px;
 }
@@ -287,8 +293,20 @@ body {
     margin-left: 125px;
 }
 
-.margin-left-50 {
-    margin-left: 200px;
+.margin-left-70 {
+    margin-left: 100px;
+}
+
+.m-left-110 {
+    margin-left: 110px;
+}
+
+.m-left-80 {
+    margin-left: 90px;
+}
+
+.m-left-60 {
+    margin-left: 60px;
 }
 
 .margin-bottom {
@@ -488,3 +506,12 @@ body {
 .h-20 {
     height: 20px;
 }
+
+.size {
+    font-size: 50px;
+}
+
+.color-icons {
+    color: #0084fd;
+}
+
